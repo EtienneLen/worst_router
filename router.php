@@ -2,6 +2,10 @@
 class Router {
     public $route_controller = array();
 
+    static function page_404() {
+        echo "404";
+    }
+
     function routing() {
 
         if(array_key_exists($_SERVER["REQUEST_URI"], $this->route_controller)) {

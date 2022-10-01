@@ -13,9 +13,7 @@ class My_Router extends Router {
     static function about() {
         echo "About page";
     }
-    static function page_404() {
-        echo "404";
-    }
+    
    
 }
 
