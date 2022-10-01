@@ -1,5 +1,5 @@
 <?php
-require_once 'router.php';
+require_once 'class/router.php';
 
 class My_Router extends Router {
     public $route_controller = array(
